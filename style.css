@@ -1,0 +1,44 @@
+/* General Styles */
+p::first-letter {
+	font-size:100%;
+	font-weight:bold;
+}
+
+/* Styling for links */
+ul a:link {
+	color: #0f6e5b;
+	font-weight:bold;
+}
+
+a:hover{
+	color: rgb(27, 238, 90);
+}
+
+/* Styling for the table */
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table th, table td {
+  border: 1px solid #0d0d11;
+  padding: 2px;
+  text-align: center;
+}
+
+table th {
+    background-color: #f9fbf7; /* Header row */
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #a0bfec; /* Odd rows */
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #cfaef0; /* Even rows */
+}
+
+table caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}

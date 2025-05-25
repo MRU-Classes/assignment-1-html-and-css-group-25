@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact form to reach our team.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Web Project</title>
+    <link rel='stylesheet' href='style/style.css'>
+    <link rel='stylesheet' href='style/main.css'>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="Website Logo" width="80">
+      <h1>Contact Us</h1>
+    </header>
+    <nav>
+     <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="questions.html">FAQ</a></li>
+       <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <h2>Send Us a Message</h2>
+        <div>If you have any questions for us that you would like answered, please fill out the following information. We would love to hear from you!</div>
+        <br><br>
+        <form action="mailto:student@example.com" method="post" enctype="text/plain">
+         <label>Subject (required):
+            <input type="text" name="subject" maxlength="35" required>
+          </label><br><br>
+          <label>Inquiry (required):<br>
+            <textarea name="inquiry" rows="4" cols="40" required></textarea>
+          </label><br><br>
+          <label>Email (required):
+            <input type="email" name="email" placeholder="example@email.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+          </label><br><br>
+          <label>Phone (optional):
+            <input type="tel" name="phone" placeholder="888-999-7777" pattern="\d{3}-\d{3}-\d{4}">
+          </label><br><br>
+          <div>Preferred Contact Method:</div>
+            <label><input type="radio" name="contact" value="email"> Email</label>
+            <label><input type="radio" name="contact" value="phone"> Phone</label><br><br>
+          <div>Interested In:</div>
+            <label><input type="checkbox" name="interest" value="Updates"> Updates</label>
+            <label><input type="checkbox" name="interest" value="Events"> Events</label><br><br>
+          <label>Date:
+            <input type="date" name="date">
+          </label><br><br>
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </form>
+      </article>
+    </main>
+    <br><br>
+    <footer>
+     <div>&copy; 2025 Web I Project | MRU</div>
+    </footer>
+  </body>
+</html>
