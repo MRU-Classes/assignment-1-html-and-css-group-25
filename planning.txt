@@ -5,7 +5,7 @@ Under "Structural Requirements"
 - Joshua ensured appropriate META tags and <title> tags were used on each page 
 - Joshua ensured there was at least one HTML comment
 - Joshua added the external link to MRU website 
-- The one link to another place on the same page we did as the switch between each page (home, FAQ, contact)
+- The one link to another place on the same page we did as the switch between each page (home, FAQ, contact) as well as the link to the photo as a reference of where we got it from
 - Gabby created the table 
 - Gabby and Joshua created the consistent menu on each page 
 - Gabby created the form design with all the required elements, and Joshua added the reset and submit buttons at the bottom
